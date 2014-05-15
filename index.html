@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery Parallax Plugin Demo</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#nav').localScroll(800);
+	
+	//.parallax(xPosition, speedFactor, outerHeight) options:
+	//xPosition - Horizontal position of the element
+	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+	$('#intro').parallax("5%", 0.5);
+	$('#second').parallax("50%", 0.1);
+	$('.bg').parallax("10%", 0.6);
+	$('#third').parallax("50%", 0.3);
+
+})
+</script>
+</head>
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display|Open+Sans+Condensed:300|Montserrat|Open+Sans|Francois+One|Inconsolata' rel='stylesheet' type='text/css'>
+<body>
+<!-- 	<ul id="nav">
+		<li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#third" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	    <li><a href="#fifth" title="Next Section"><img src="images/dot.png" alt="Link" /></a></li>
+	</ul> -->
+	<div id="nav_bar">
+		MIKEVA<span>PAGE</span>
+		<a href="#intro" title="Next Section"><div class="nav_item">HOME</div></a>
+		<a href="#second" title="Next Section"><div class="nav_item">ABOUT</div></a>
+		<a href="#third" title="Next Section"><div class="nav_item">PROJECTS</div></a>
+	</div>
+
+
+	<div id="intro">
+		<div class="home">
+			<div class="home_title">
+				MIKEVA
+			</div>
+			<br>
+			<br>
+			<div class="home_subtitle">
+				<hr>
+				<hr>
+		        <p>With great power comes great responsibility.</p>
+
+	        </div>
+        </div>
+	</div> <!--#intro-->
+	
+	<div id="second">
+		<div class="story"><div class="bg"></div>
+	    	<div class="float-right">
+	            <div class="about_title ">
+		            ABOUT ME
+		        </div>
+		        <div class="about_content">
+		            <p>Hi ! 我是 Mikeva，城市攻城獅，現役仍是台灣大學的碩士生，研究Data/Text Mining，時常尋找網頁前台與後台的應用。</p>
+		            <p>喜歡的語言有好多種：Ruby, JAVA, HTML/CSS/Javascript, C/C++等，歡迎跟我討論任何相關與不相關的問題。</p>
+		            <p></p>	
+		        </div>
+	        </div>
+	    </div> <!--.story-->
+	    
+	</div> <!--#second-->
+	
+	<div id="third">
+		<div class="story">
+	    	<div class="project_title">
+	    		PROJECTS
+	    		<hr>
+	    	</div>
+	    	<div class="project_content">
+	    		<div id="works">
+						<div class="item" name='iTree' data-label='1'>
+							<img src="images/img/itree.png">
+						</div>
+						<div class="item" name ='Rumbleat' data-label='2'>
+							<img src="images/img/rumbleat.png">
+						</div>
+						<div class="item" name ='FireBox' data-label='3'>
+							<img src="images/img/firebox.png">
+						</div>
+						<div class="item" name ='Take 6' data-label='4'>
+							<img src="images/img/take6.png">
+						</div>
+						<div class="item" name ='Emo-Song' data-label='5'>
+							<img src="images/img/emo-song.png">
+						</div>
+						
+				</div>
+	    	</div>
+	    </div> <!--.story-->
+	</div> <!--#third-->
+	
+	<div id="fifth">
+		<div class="story">
+		    <p>Copyright 2014. All right reserved</p>
+	    </div> <!--.story-->
+	</div> <!--#fifth-->
+</body>
+
+
+<script type="text/javascript" src="scripts/myjs.js"></script>
+</html>
