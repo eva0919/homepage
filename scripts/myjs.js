@@ -23,17 +23,17 @@ var data_label = {
 	"3":{
 		name:"Firebox",
 		url:"http://firebox.heroku.com/",
-		info:"",
+		info:"Firebox是在由Mozilla所舉辦的Hack Day比賽過程中誕生<br>這個比賽是Mozilla為了推行他們所開發新的手機OS,FireFox OS<br>而Firebox是一個可以多人同時玩的娛樂性App。",
 	},
 	"4":{
 		name:"Take 6",
 		url:"https://www.dropbox.com/s/2zyzp8yspqio2mh/OOP_Project.rar",
-		info:"",
+		info:"物件導向課程中的Project , Take 6 , 誰是牛頭王<br>原是一款桌遊，而我們將其改成可以在PC上遊玩。提供多人連線。<br>當時拿到全班最高分的Project。",
 	},
 	"5":{
 		name:"Emo-Song",
 		url:"http://emo-song.herokuapp.com/",
-		info:"",
+		info:"巨量資料的時代來臨，Data mining也正是趨勢之一。<br>這是一個在關於網路資料探勘的課程所做的專題<br>主要是透過使用者輸入的文字心情與歌曲做對照，回饋給使用者最想聽的歌曲",
 	}
 
 
