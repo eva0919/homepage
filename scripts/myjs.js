@@ -34,6 +34,16 @@ var data_label = {
 		name:"Emo-Song",
 		url:"http://emo-song.herokuapp.com/",
 		info:"",
+	},
+	"6":{
+		name:"Fiiser",
+		url:"https://www.fiiser.com/",
+		info:"我進入Fiiser後負責的一項任務，就是維護更新Fiiser的主網站。期間新增分類與排行列表，以及優化主網站在移動端Mobile上的體驗，如lazy loading等加速首屏載入",
+	},
+	"7":{
+		name:"SoQ*Live",
+		url:"https://itunes.apple.com/us/app/soqlive/id1133870559?l=zh&ls=1&mt=8",
+		info:"在Fiiser期間負責的專案，為一個直播產品。擔任主要開發負責人之一，主導後台架構建設與iOS App開發。獨力完成許多功能：如硬體壓縮直播流、秒開優化、滑動切換頻道等",
 	}
 
 
@@ -43,7 +53,7 @@ $(".item").on('click',function(){
 	var label = $(this).attr("data-label");
 	$("html").prepend("<div class='all_mask'></div>")
 	$(".all_mask").hide();
-	var pre = "<div id='pop_data'><div class='pop_content'>Name : "+data_label[label].name+"</div><a href='"+data_label[label].url+"' target='_blank'><div class='pop_content'>"+data_label[label].url+"</div></a><div class='pop_info'>"+data_label[label].info+"</div><div id='close'><i class='icon-remove-sign icon-2x'></i></div></div>"
+	var pre = "<div id='pop_data'><div class='pop_content'>Name : "+data_label[label].name+"</div><a href='"+data_label[label].url+"' target='_blank'><div class='pop_content'>Link</div></a><div class='pop_info'>"+data_label[label].info+"</div><div id='close'><i class='icon-remove-sign icon-2x'></i></div></div>"
 	$("html").prepend(pre);
 	$(".all_mask").slideDown();
 

@@ -211,6 +211,13 @@ h2{
 	font-family: 'Open Sans',sans-serif ,'Microsoft JhengHei';
 	color: #CCC;
 }
+.about_content a:link{
+	color:#FF8000;
+}
+.about_content a:visited{
+	color:#FF8000;
+}
+
 #fifth p {
 	font-family: 'Open Sans', sans-serif;
 	color: #777;
@@ -245,6 +252,7 @@ h2{
 	margin-top: 5px;
 	position: relative;
 	display: inline-block;
+	z-index: 1;
 }
 #works {
 	position: relative;
