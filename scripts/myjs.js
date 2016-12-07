@@ -34,17 +34,6 @@ var data_label = {
 	"5":{
 		name:"Emo-Song",
 		url:"http://emo-song.herokuapp.com/",
-		info:"",
-	},
-	"8":{
-		name:"Fiiser",
-		url:"https://www.fiiser.com/",
-		info:"我進入Fiiser後負責的一項任務，就是維護更新Fiiser的主網站。期間新增分類與排行列表，以及優化主網站在移動端Mobile上的體驗，如lazy loading等加速首屏載入",
-	},
-	"9":{
-		name:"SoQ*Live",
-		url:"https://itunes.apple.com/us/app/soqlive/id1133870559?l=zh&ls=1&mt=8",
-		info:"在Fiiser期間負責的專案，為一個直播產品。擔任主要開發負責人之一，主導後台架構建設與iOS App開發。獨力完成許多功能：如硬體壓縮直播流、秒開優化、滑動切換頻道等",
 		info:"巨量資料的時代來臨，Data mining也正是趨勢之一。<br>這是一個在關於網路資料探勘的課程所做的專題<br>主要是透過使用者輸入的文字心情與歌曲做對照，回饋給使用者最想聽的歌曲",
 	},
 	"6":{
@@ -57,6 +46,16 @@ var data_label = {
 		name:"Pieces",
 		url:"http://pieces.hypo.cc",
 		info:"Pieces，基於 Instagram 發想的新系列，把手機照片變成生活製品，產品是放在app store上面的ios app，這個網頁以介紹產品為主，是hypo公司的產品網頁，幾乎一人打造，提供三國語言。"
+	},
+	"8":{
+		name:"Fiiser",
+		url:"https://www.fiiser.com/",
+		info:"我進入Fiiser後負責的一項任務，就是維護更新Fiiser的主網站。期間新增分類與排行列表，以及優化主網站在移動端Mobile上的體驗，如lazy loading等加速首屏載入",
+	},
+	"9":{
+		name:"SoQ*Live",
+		url:"https://itunes.apple.com/us/app/soqlive/id1133870559?l=zh&ls=1&mt=8",
+		info:"在Fiiser期間負責的專案，為一個直播產品。擔任主要開發負責人之一，主導後台架構建設與iOS App開發。獨力完成許多功能：如硬體壓縮直播流、秒開優化、滑動切換頻道等",
 	}
 
 
